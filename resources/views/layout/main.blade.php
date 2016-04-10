@@ -16,7 +16,7 @@
     <!-- Custom styles for this template -->
     <link href="{{ asset('/assets/css/navbar-static-top.css') }}" rel="stylesheet" type="text/css" />
     <!-- jQuery -->
-    <script src="{{ asset('/jQuery/jquery-1.10.2.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/jQuery/jquery-1.12.3.min.js') }}" type="text/javascript"></script>
 	    <!-- bootstrap js--->
 	  <script src="{{ asset('/js/bootstrap.min.js') }}" type="text/javascript"></script>
 
