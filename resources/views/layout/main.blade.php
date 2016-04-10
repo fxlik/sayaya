@@ -20,6 +20,7 @@
 	    <!-- bootstrap js--->
 	  <script src="{{ asset('/js/bootstrap.min.js') }}" type="text/javascript"></script>
 
+    @yield('head')
   </head>
   <body>
     <!-- Static navbar -->
