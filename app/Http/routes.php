@@ -21,3 +21,6 @@ Route::get('/saya', function(){
 Route::get('/home', function(){
     return view('home');
 });
+
+//apps route
+Route:resource('users', 'userscontroller');
