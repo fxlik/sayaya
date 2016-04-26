@@ -23,4 +23,8 @@ Route::get('/home', function(){
 });
 
 //apps route
-Route:resource('users', 'userscontroller');
+// Route:resource('users', 'userscontroller');
+
+Route::get('udin', function(){
+  return view('udin');
+});
